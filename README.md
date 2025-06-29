@@ -55,7 +55,7 @@ Run all or press Shift + Enter to run cells step by step.
 
 ---
 
-📁 File Structure
+##📁 File Structure
 motivational-quote-generator/
 ├── Untitled2.ipynb         # Main Jupyter Notebook with full logic
 ├── quotes.txt              # Auto-saved generated quotes
@@ -63,7 +63,7 @@ motivational-quote-generator/
 
 ---
 
-✅ Sample Interaction
+##✅ Sample Interaction
 🌟 Select your current mood:
 1. Anxious
 2. Stressed
@@ -72,12 +72,12 @@ motivational-quote-generator/
 
 Enter your choice: 3
 
-###💬 Motivational Quote:
+##💬 Motivational Quote:
 "Even on your lowest days, your effort matters and your journey counts."
 
 ---
 
-###📌 Mood Categories Supported
+##📌 Mood Categories Supported
 #Anxious
 
 #Stressed
@@ -98,7 +98,7 @@ Enter your choice: 3
 
 ---
 
-###🧪 Testing Summary
+##🧪 Testing Summary
 
 ✅ Generated relevant quotes for each mood
 
@@ -110,12 +110,12 @@ Enter your choice: 3
 
 ---
 
-###✨ Why This Project Matters
+##✨ Why This Project Matters
 
 This project shows how local LLMs like Falcon can create meaningful, real-world applications even on standard hardware. It’s a reminder that AI isn’t just for tech giants — it can be used for wellness, learning, and inspiration right from your terminal.
 
 ---
-###🚧 Model Choice & Limitations
+##🚧 Model Choice & Limitations
 
 Initially, I considered using larger models such as GPT-4 or LLaMA derivatives to enhance the quality and creativity of generated quotes. However, several practical constraints influenced my final choice:
 
@@ -131,13 +131,13 @@ Creative Limitations: While Falcon-RW-1B generates coherent, relevant content, i
 
 ---
 
-###🙋 Author
+##🙋 Author
 
 Anwika Mothukuri
 Student | Builder | Founder Motivational quote generator
 
 ---
-###🏁 Final Note
+##🏁 Final Note
 This project is more than just an AI demo — it’s a personal tool for reflection and encouragement. By integrating local LLMs with emotion-aware prompts, it proves that even small models can have a big emotional impact.
 
 Whether you're starting your day, facing challenges, or just need a moment of motivation, this quote generator is a reminder that the right words, at the right time, can truly uplift your spirit.
