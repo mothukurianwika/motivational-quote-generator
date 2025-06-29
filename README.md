@@ -55,7 +55,8 @@ Run all or press Shift + Enter to run cells step by step.
 
 ---
 
-##📁 File Structure
+## 📁 File Structure
+
 motivational-quote-generator/
 ├── Untitled2.ipynb         # Main Jupyter Notebook with full logic
 ├── quotes.txt              # Auto-saved generated quotes
@@ -63,7 +64,11 @@ motivational-quote-generator/
 
 ---
 
-##✅ Sample Interaction
+
+---
+
+## ✅ Sample Interaction
+
 🌟 Select your current mood:
 1. Anxious
 2. Stressed
@@ -72,74 +77,66 @@ motivational-quote-generator/
 
 Enter your choice: 3
 
-##💬 Motivational Quote:
-"Even on your lowest days, your effort matters and your journey counts."
+
+### 💬 Motivational Quote
+> "Even on your lowest days, your effort matters and your journey counts."
 
 ---
 
-##📌 Mood Categories Supported
-#Anxious
+## 📌 Mood Categories Supported
 
-#Stressed
-
-#Unmotivated
-
-#Tired
-
-#Excited
-
-#Confused
-
-#Focused
-
-#Sad
-
-#Lonely
+- Anxious  
+- Stressed  
+- Unmotivated  
+- Tired  
+- Excited  
+- Confused  
+- Focused  
+- Sad  
+- Lonely  
 
 ---
 
-##🧪 Testing Summary
+## 🧪 Testing Summary
 
-✅ Generated relevant quotes for each mood
-
-✅ Model loads correctly and runs offline
-
-✅ Handled invalid input without crashing
-
-✅ Saved quotes accurately to a file
+- ✅ Generated relevant quotes for each mood  
+- ✅ Model loads correctly and runs offline  
+- ✅ Handled invalid input without crashing  
+- ✅ Saved quotes accurately to a file  
 
 ---
 
-##✨ Why This Project Matters
+## ✨ Why This Project Matters
 
 This project shows how local LLMs like Falcon can create meaningful, real-world applications even on standard hardware. It’s a reminder that AI isn’t just for tech giants — it can be used for wellness, learning, and inspiration right from your terminal.
 
 ---
-##🚧 Model Choice & Limitations
+
+## 🚧 Model Choice & Limitations
 
 Initially, I considered using larger models such as GPT-4 or LLaMA derivatives to enhance the quality and creativity of generated quotes. However, several practical constraints influenced my final choice:
 
-Resource Efficiency: Large-scale models required more RAM and GPU power than a typical laptop can offer.
+- ⚙️ **Resource Efficiency**: Large-scale models required more RAM and GPU power than a typical laptop can offer.
+- 🔐 **Latency & Privacy**: Online APIs introduce delays and privacy concerns. Offline models provide faster responses and complete control.
+- 🖥️ **Local Compatibility**: Falcon-RW-1B was chosen for its balance of performance and hardware-friendliness. It runs locally using Hugging Face Transformers with PyTorch backend, making it ideal for personal or educational use.
+- 🎨 **Creative Limitations**: While Falcon-RW-1B generates coherent, relevant content, its creativity and depth are naturally limited compared to larger models like GPT-4 or Claude 3.
 
-Latency & Privacy: Online APIs introduce delays and privacy concerns. Offline models provide faster responses and complete control.
-
-Local Compatibility: Falcon-RW-1B was chosen for its balance of performance and hardware-friendliness. It runs locally using Hugging Face Transformers with PyTorch backend, making it ideal for personal or educational use.
-
-Creative Limitations: While Falcon-RW-1B generates coherent, relevant content, its creativity and depth are naturally limited compared to larger models like GPT-4 or Claude 3.
-
-⚠️ Note: The model may occasionally produce generic or repetitive phrases due to its smaller size and limited context awareness.
+> ⚠️ Note: The model may occasionally produce generic or repetitive phrases due to its smaller size and limited context awareness.
 
 ---
 
-##🙋 Author
+## 🙋 Author
 
-Anwika Mothukuri
-Student | Builder | Founder Motivational quote generator
+**Anwika Mothukuri**  
+Student | Builder | Creator of Motivational Quote Generator
 
 ---
-##🏁 Final Note
-This project is more than just an AI demo — it’s a personal tool for reflection and encouragement. By integrating local LLMs with emotion-aware prompts, it proves that even small models can have a big emotional impact.
 
-Whether you're starting your day, facing challenges, or just need a moment of motivation, this quote generator is a reminder that the right words, at the right time, can truly uplift your spirit.
+## 🏁 Final Note
 
-“Not every AI needs to be massive — sometimes, meaningful is enough.” 💡
+> 💬 This project is more than just an AI demo — it’s a personal tool for reflection and encouragement.  
+> By integrating local LLMs with emotion-aware prompts, it proves that even small models can have a big emotional impact.  
+>
+> Whether you're starting your day, facing challenges, or just need a moment of motivation, this quote generator is a reminder that the right words, at the right time, can truly uplift your spirit.  
+>
+> “Not every AI needs to be massive — sometimes, meaningful is enough.” 💡
