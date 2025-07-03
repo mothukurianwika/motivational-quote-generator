@@ -47,11 +47,11 @@ To help users — especially students and working professionals — get instant,
 
 ### 1. 📦 Install Requirements
 
-pip install transformers torch
+!pip install transformers streamlit -q
 
 ### 2. ▶️ Run the Script
 
-Run all or press Shift + Enter to run cells step by step.
+To run the script click "https://09fd-34-41-178-31.ngrok-free.app"
 
 ---
 
@@ -103,6 +103,31 @@ Enter your choice: 3
 - ✅ Model loads correctly and runs offline  
 - ✅ Handled invalid input without crashing  
 - ✅ Saved quotes accurately to a file  
+
+---
+
+## 📸 Visual Testing Evidence
+
+### 🔷 1. App Running in Google Colab
+
+![image](https://github.com/user-attachments/assets/b19d366f-6dc5-4b35-a0d3-1d285d34773d)
+
+---
+
+### 🔷 2. Streamlit Interface via ngrok
+
+![image](https://github.com/user-attachments/assets/4318bfb1-acd7-4aa5-81d5-e79ef69132cb)
+
+---
+
+### 🔷 3. Generated Quote Example
+
+![image](https://github.com/user-attachments/assets/539b93fc-2b6d-4941-8689-6e40e400f459)
+
+---
+## 🧪 Live Testing Proof
+
+![Screenshot 2025-07-03 211046](https://github.com/user-attachments/assets/3e63f60d-31ec-47b9-b1b7-7a1533147110)
 
 ---
 
